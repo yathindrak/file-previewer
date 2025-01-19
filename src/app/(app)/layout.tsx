@@ -17,11 +17,6 @@ export default function RootLayout({
       <body>
       <link rel="stylesheet" href="/ext-lib/pptx/css/pptxjs.css" />
         {children}
-        <Script 
-          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
-          strategy="beforeInteractive"
-        />
-        <Script src="/ext-lib/pptx/js/pptxjs.min.js" strategy="afterInteractive" />
       </body>
     </html>
   )
